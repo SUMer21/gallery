@@ -1,0 +1,134 @@
+.title {
+    font-family: 'Brush Script MT';
+    font-size: 50px;
+    margin-left: -55px;
+}
+.nav {
+    background-color: wheat;
+    
+    
+    border-radius: 15px;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search {
+
+    border: 1px solid transparent;
+    background-color: white;
+    height: 35px;
+    width: 425px;
+    border-radius: 50px;
+    
+
+
+}
+.a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+.a:hover {
+
+
+color: wheat;
+background-color: black;
+border-radius: 50px;
+padding: 10px 10px 10px;
+
+
+}
+.img {
+    height: 15px;
+    margin-left: -125px;
+    cursor: pointer;
+}
+.imgB {
+    height: 15px;
+    margin-left: -55px;
+    cursor: pointer;
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+.textTitle {
+    font-family:'Lucida Handwriting';
+    font-size: 55px;
+    color: black;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-bottom: 0px;
+
+
+
+}
+.text {
+    font-family:'Lucida Handwriting';
+    font-size: 15px;
+    color: black;
+    font-weight: lighter;
+    margin-top: -1px;
+    margin-left: 22%;
+
+}
+.folder {
+
+    border: 1px solid transparent;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+    margin-top: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+    0 5px 10px rgba(0, 0, 0, 0.22);
+
+
+
+
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+   
+}
+.images:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3), 
+                0 10px 20px rgba(0, 0, 0, 0.25);
+}
+.images {
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+    0 5px 10px rgba(0, 0, 0, 0.22);
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+.stack div:nth-child(8) {
+    height: 100px;
+}
+.btn {
+    border: 1px solid transparent;
+}
+.p{
+    color: black;
+    font-family:'Lucida Handwriting' ;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+.btn {
+
+    background-color: transparent;
+
+}
